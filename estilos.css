@@ -1,0 +1,71 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    .container {
+      text-align: center;
+      margin: 20px;
+    }
+    #bocina{
+    
+        max-width: 4%;
+        margin-top: 0;
+        margin-bottom: 0;
+        cursor: pointer;
+      
+    }
+    .button {
+      display: block;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 5px;
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: 30px;
+      text-decoration: none;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+
+  #botonUbicacion{
+    background-color:brown; 
+  }
+#botonConfirmar{
+  display: block;
+  background-color:brown; 
+}
+
+ 
+   /* .button:hover {
+      background-color: #45a049;
+      
+    }*/
+    footer{
+      background-color: #333;
+      font-size: 10px;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      /* Asegura que el footer siempre esté en la parte inferior */
+      margin-top: 15%;
+      
+    }
+
+
+    /* Cuando la pantalla tenga un ancho menor a 500px */
+@media (max-width: 500px) {
+  #bocina {
+    width: 30%; /* Mantener el ancho original de la imagen */
+    max-width: 100%; /* Asegurarse de que la imagen no se desborde del contenedor */
+    height: auto; /* Para mantener la relación de aspecto */
+  }
+}
+    
+  
